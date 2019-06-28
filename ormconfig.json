@@ -1,0 +1,11 @@
+{
+  "type": "mysql",
+  "host": "localhost",
+  "port": 9006,
+  "username": "root",
+  "password": "123456",
+  "database": "nma-shopping",
+  "synchronize": true,
+  "logging": true,
+  "entities": ["src/Entities/**/*.ts"]
+}
