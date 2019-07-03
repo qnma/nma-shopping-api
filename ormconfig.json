@@ -2,10 +2,14 @@
   "type": "mysql",
   "host": "localhost",
   "port": 9006,
-  "username": "root",
-  "password": "123456",
-  "database": "nma-shopping",
+  "username": "lin",
+  "password": "lin",
+  "database": "nma_shopping",
   "synchronize": true,
   "logging": true,
-  "entities": ["src/Entities/**/*.ts"]
+  "entities": ["src/**/*.entity.ts"],
+  "migrations": ["_migration/*.js"],
+  "cli": {
+    "migrationsDir": "_migration"
+  }
 }
