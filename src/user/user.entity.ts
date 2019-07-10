@@ -2,7 +2,7 @@ import { Entity, PrimaryGeneratedColumn, Column } from 'typeorm';
 
 // 平台用户
 @Entity()
-export default class User {
+export class User {
   @PrimaryGeneratedColumn()
   id: number;
 

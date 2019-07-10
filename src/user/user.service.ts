@@ -2,7 +2,7 @@ import { Injectable, HttpException, HttpStatus } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 import { PasswordService } from '@/password/password.service';
-import User from '@/_entity/user.entity';
+import { User } from './user.entity';
 
 @Injectable()
 export class UserService {
@@ -32,7 +32,6 @@ export class UserService {
       if (existUser.email === email) {
         throw new HttpException('F', HttpStatus.FORBIDDEN);
       } else if (existUser.username === currentUsername) {
-        
       }
     }
 

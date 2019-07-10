@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import * as jdenticon from 'jdenticon';
-import { Stream } from 'stream';
+import * as Stream from 'stream';
 
 @Injectable()
 export class AvatarService {

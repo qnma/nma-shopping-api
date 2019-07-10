@@ -1,7 +1,8 @@
 {
   "qiniu": {
     "ak": "J6bpg2zRUfials6ClCBInTD3Qli-M1B8rEegl6yX",
-    "sk": "qrD1z6piqrKVJnkMnaFpVH7rmkc4qRVemKxcqFkQ"
+    "sk": "qrD1z6piqrKVJnkMnaFpVH7rmkc4qRVemKxcqFkQ",
+    "bucket": "nma-shopping"
   },
   "ormconfig": {
     "type": "mysql",
