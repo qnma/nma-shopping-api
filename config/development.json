@@ -1,0 +1,21 @@
+{
+  "qiniu": {
+    "ak": "J6bpg2zRUfials6ClCBInTD3Qli-M1B8rEegl6yX",
+    "sk": "qrD1z6piqrKVJnkMnaFpVH7rmkc4qRVemKxcqFkQ"
+  },
+  "ormconfig": {
+    "type": "mysql",
+    "host": "localhost",
+    "port": 9006,
+    "username": "lin",
+    "password": "lin",
+    "database": "nma_shopping",
+    "synchronize": true,
+    "logging": true,
+    "entities": ["src/**/*.entity.ts"],
+    "migrations": ["migration/*.ts"],
+    "cli": {
+      "migrationsDir": "migration"
+    }
+  }
+}
